@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Реализовать JSON API по учету доходов и расходов пользователя с учетом приведенных ниже требований к реализации:
 
-Things you may want to cover:
+Конкурентные запросы по изменению баланса пользователя
+Выписка по всем операциям пользователя с отбором по периоду (Наименование дохода (расхода), сумма, дата), состояние баланса на начало и конец периода.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Рекомендуемые технологии:
+* Rails 5-6
+* postgresql
+* ruby последней стабильной версии
+* rspec
